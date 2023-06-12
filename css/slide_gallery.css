@@ -33,14 +33,15 @@ body {
   opacity: 0;
   transition: opacity 0.75s ease-in-out;
 }
-/* .intro-slideshow img:first-child {
+.intro-slideshow img:first-child {
   display: block;
   opacity: 1;
-} */
+}
 .intro .intro-header {
   border-radius: 0.5rem;
   padding: 2rem 2.5rem;
   background-color: rgba(0,0,0,0.5);
+  color: var(--clr-white);
 }
 .intro h1 {
   font-size: 4rem;
