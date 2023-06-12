@@ -9,11 +9,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
   <!-- styles -->
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/slide_gallery.css" />
+  <link rel="stylesheet" href="./css/review.css" />
+  <link rel="stylesheet" href="./css/gallery.css" />
+
+
 </head>
 
 <body>
+
+  <!--  NAVBAR  -->
   <header id="home">
-    <!-- navbar -->
     <nav id="nav">
       <div class="nav-center">
         <!-- nav header -->
@@ -42,32 +48,34 @@
         </div>
       </div>
     </nav>
-    <!-- banner -->
-    <div class="banner">
-      <section>
-        <div class="item "><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80" alt=""></div>
-        <div class="item"><img src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="">
-          <div class="caption">
-            <h2>Beauty Lorem ipsum dolor sit amet.</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi amet assumenda cupiditate eaque ex in dolores corrupti tempore rem, autem qui possimus rerum deserunt aliquam sequi quibusdam recusandae tempora doloremque voluptatem adipisci, dolore quae! Tempore magnam minima mollitia tempora esse!</p>
-          </div>
-        </div>
-        <div class="item"><img src="https://images.unsplash.com/photo-1565118531796-763e5082d113?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt=""></div>
-        <div class="item show"><img src="https://images.unsplash.com/photo-1544275953-31eb9e355572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt=""></div>
-      </section>
-    </div>
+   
+
+    <!--  SLIDE GALLERY  -->
+
+    <section class="intro">
+      <div class="intro-slideshow">
+        <img src="https://www.dropbox.com/s/h8rds5ozk0u3s2f/coder.jpg?raw=1">
+        <img src="https://www.dropbox.com/s/lf29ifrd354ngyv/coffee.jpg?raw=1">
+        <img src="https://www.dropbox.com/s/lxnf1mxej90qoae/library.jpg?raw=1">
+        <img src="https://www.dropbox.com/s/15gdoyzoai94j6j/path.jpg?raw=1">
+        <img src="https://www.dropbox.com/s/pem8kaorr488apn/universe.jpg?raw=1">
+      </div>
+      <div class="intro-header">
+        <h1>Coding Journey</h1>
+        <p>It's all about the journey</p>
+      </div>
+    </section>
   </header>
 
 
 
-  <!-- Reviews  -->
+  <!-- REVIEWS  -->
   <section class="review">
     <!-- title -->
     <div class="title">
       <h2>our reviews</h2>
       <div class="underline"></div>
     </div>
-    <!-- review -->
     
     <article class="review">
       <div class="img-container">
@@ -82,15 +90,115 @@
       </p>
       <!-- prev next buttons-->
       <div class="button-container">
-        <button class="prev-btn">
+        <button class="prev-btn1">
           <i class="fas fa-chevron-left"></i>
         </button>
-        <button class="next-btn">
+        <button class="next-btn1">
           <i class="fas fa-chevron-right"></i>
         </button>
       </div>
     </article>
   </section>
+
+
+
+  <!--  GALLERY  -->
+  <section class="section nature">
+    <img
+      src="./images/nature-1.jpeg"
+      title="nature-1"
+      class="img"
+      data-id="1"
+      alt="nature-1"
+    />
+    <img
+      src="./images/nature-2.jpeg"
+      title="nature-2"
+      class="img"
+      data-id="2"
+      alt="nature-2"
+    />
+    <img
+      src="./images/nature-3.jpeg"
+      title="nature-3"
+      class="img"
+      data-id="3"
+      alt="nature-3"
+    />
+  </section>
+  <!-- city -->
+  <section class="section city">
+    <img
+      src="./images/city-1.jpeg"
+      title="city-1"
+      data-id="1"
+      class="img"
+      alt="city-1"
+    />
+    <img
+      src="./images/city-2.jpeg"
+      title="city-2"
+      data-id="2"
+      class="img"
+      alt="city-2"
+    />
+    <img
+      src="./images/city-3.jpeg"
+      title="city-3"
+      data-id="3"
+      class="img"
+      alt="city-3"
+    />
+    <img
+      src="./images/city-4.jpeg"
+      title="city-4"
+      data-id="4"
+      class="img"
+      alt="city-4"
+    />
+    <img
+      src="./images/city-5.jpeg"
+      title="city-5"
+      data-id="5"
+      class="img"
+      alt="city-5"
+    />
+  </section>
+
+  <!-- modal -->
+  <div class="modal">
+    <button class="close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="modal-content">
+      <!-- prev next buttons -->
+      <button class="prev-btn2">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="next-btn2">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <!-- content -->
+      <img src="./images/city-1.jpeg" class="main-img" alt="" />
+      <h3 class="image-name">image name</h3>
+      <div class="modal-images">
+        <img
+          src="./images/city-1.jpeg"
+          title="city-1"
+          id="1"
+          class="modal-img"
+          alt=""
+        />
+        <img
+          src="./images/city-2.jpeg"
+          title="city-2"
+          id="2"
+          class="modal-img selected"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
   
  
   <!-- footer -->
@@ -103,6 +211,8 @@
   
   <!-- javascript -->
   <script src="./js/javascript.js"></script>
+  <script src="./js/slide_gallery.js"></script>
+
 </body>
 
 </html>
