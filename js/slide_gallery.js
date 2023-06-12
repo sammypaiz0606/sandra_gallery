@@ -18,8 +18,8 @@ function getElement(selection) {
       this.imageName = getElement('.image-name');
       this.modalImages = getElement('.modal-images');
       this.closeBtn = getElement('.close-btn');
-      this.nextBtn = getElement('.next-btn');
-      this.prevBtn = getElement('.prev-btn');
+      this.nextBtn = getElement('.next-btn2');
+      this.prevBtn = getElement('.prev-btn2');
       // self ref
       // let self = this;
       // bind functions
