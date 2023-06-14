@@ -130,6 +130,10 @@ p {
 }
 /*  global classes */
 
+#gallery .title {
+  position: relative;
+  top: 50px;
+}
 /* section */
 .section1 {
   padding: 5rem 0;
