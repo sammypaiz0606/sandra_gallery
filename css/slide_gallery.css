@@ -40,7 +40,7 @@ body {
 .intro .intro-header {
   border-radius: 0.5rem;
   padding: 2rem 2.5rem;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.2);
   color: var(--clr-white);
 }
 .intro h1 {
@@ -49,6 +49,7 @@ body {
 }
 .intro p {
   font-size: 1.75rem;
+  color: var(--clr-white);
 }
 
 @media (max-width: 700px) {
